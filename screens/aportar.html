@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nébula</title>
+    <!-- Linkeo a Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html" class="header__logo"><h2 class="header__logo__contenido">Nébula</h2></a>
+        <!-- Menú de navegación -->
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__li--mod1"><a class="header__nav__ul__li__a" href="./noticias.html">Noticias</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./categorias.html">Categorías</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./galeria.html">Galería</a></li>
+                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./nosotros.html">Nosotros</a></li>
+                <li class="header__nav__ul__li--mod2"><a class="header__nav__ul__li__a" href="./aportar.html">Aportar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Formulario de contacto -->
+    <main class="main">
+        <section class="main__aportar__sectionA">
+            <h1 class="main__aportar__sectionA__titulo">Formulario de contacto</h1>
+            <form class="main__aportar__sectionA__form" action="./aportar.html" method="get">
+                <label class="main__aportar__sectionA__form__label" for="name"> Nombre:</label>
+                <input class="main__aportar__sectionA__form__input" type="texto" id="name">
+                <label class="main__aportar__sectionA__form__label" for="Apellido"> Apellido:</label>
+                <input class="main__aportar__sectionA__form__input" type=" text" id="Apellido">
+                <label class="main__aportar__sectionA__form__label" for="Pais"> País de Residencia:</label>
+                <select class="main__aportar__sectionA__form__select" id="Pais"> 
+                    <option class="main__aportar__sectionA__form__select__option">Argentina</option>
+                    <option class="main__aportar__sectionA__form__select__option">Brasil</option>
+                    <option class="main__aportar__sectionA__form__select__option">Uruguay</option>
+                    <option class="main__aportar__sectionA__form__select__option">Chile</option>
+                    <option class="main__aportar__sectionA__form__select__option">Otro</option>
+                </select>
+                <label class="main__aportar__sectionA__form__label" for="Aporte">Tipo de Aporte:</label>
+                <select class="main__aportar__sectionA__form__select" id="Aporte">
+                    <option class="main__aportar__sectionA__form__select__option">Imagen</option>
+                    <option class="main__aportar__sectionA__form__select__option">Video</option>
+                    <option class="main__aportar__sectionA__form__select__option">Sugerencia</option>
+                    <option class="main__aportar__sectionA__form__select__option">Económico</option>
+                    <option class="main__aportar__sectionA__form__select__option">Otro</option>
+                </select>
+                <label class="main__aportar__sectionA__form__label" for="file">Cargar Archivo:</label>
+                <input class="main__aportar__sectionA__form__input" type="file" id="file">
+                <label class="main__aportar__sectionA__form__label" for="email"> Dirección de email:</label>
+                <input class="main__aportar__sectionA__form__input" type="text" id="email">
+                <label class="main__aportar__sectionA__form__label" for="comentarios"> Comentarios/Aportes:</label>
+                <textarea class="main__aportar__sectionA__form__textarea" id="comentarios"></textarea>
+                <label class="main__aportar__sectionA__form__label" for="comentarios"></label>
+                <input class="main__aportar__sectionA__form__input" type="submit" value="Enviar Formulario">
+                <input class="main__aportar__sectionA__form__input" type="reset" value="Cancelar">
+           </form>
+         </section>
+   </main>
+    <!-- Footer -->
+   <footer class="footer">
+        <article class="footer__article">
+            <a class="footer__article__a" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-shake footer__article__a__i" style="--fa-animation-duration: 2s;"></i>Nébula_oficial</a>
+        </article>
+        <article class="footer__article--mod1">
+            <a class="footer__article__a" href="https://twitter.com/login?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-shake footer__article__a__i" style="--fa-animation-duration: 2s;"></i>Nébula_oficial</a>
+        </article>
+        <article class="footer__article">
+            <a class="footer__article__a" href="https://www.youtube.com/?gl=AR&hl=es-419" target="_blank"><i class="fa-brands fa-youtube fa-shake footer__article__a__i" style="--fa-animation-duration: 2s;"></i>Nébula_oficial</a>
+        </article>
+    </footer>
+</body>
+</html>
