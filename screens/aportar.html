@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nébula</title>
+    <title>Aportar</title>
     <!-- Linkeo a Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Estilo CSS -->
     <link rel="stylesheet" href="../styles/estilos.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../screens/Favicon.ico">
+    
 </head>
 <body>
     <header class="header">
@@ -33,11 +38,11 @@
         <section class="main__aportar__sectionA">
             <h1 class="main__aportar__sectionA__titulo">Formulario de contacto</h1>
             <form class="main__aportar__sectionA__form" action="./aportar.html" method="get">
-                <label class="main__aportar__sectionA__form__label" for="name"> Nombre:</label>
-                <input class="main__aportar__sectionA__form__input" type="texto" id="name">
-                <label class="main__aportar__sectionA__form__label" for="Apellido"> Apellido:</label>
-                <input class="main__aportar__sectionA__form__input" type=" text" id="Apellido">
-                <label class="main__aportar__sectionA__form__label" for="Pais"> País de Residencia:</label>
+                <label class="main__aportar__sectionA__form__label form-label"  for="name exampleFormControlInput1">Nombre:</label>
+                <input class="main__aportar__sectionA__form__input form-control" type="texto" id="name exampleFormControlInput1" placeholder="Pepito Juancho">
+                <label class="main__aportar__sectionA__form__label form-label" for="Apellido exampleFormControlInput1">Apellido:</label>
+                <input class="main__aportar__sectionA__form__input form-control" type="text" id="Apellido" placeholder="Rodriguez">
+                <label class="main__aportar__sectionA__form__label form-label" for="Pais exampleFormControlInput1">País de Residencia:</label>
                 <select class="main__aportar__sectionA__form__select" id="Pais"> 
                     <option class="main__aportar__sectionA__form__select__option">Argentina</option>
                     <option class="main__aportar__sectionA__form__select__option">Brasil</option>
@@ -45,7 +50,7 @@
                     <option class="main__aportar__sectionA__form__select__option">Chile</option>
                     <option class="main__aportar__sectionA__form__select__option">Otro</option>
                 </select>
-                <label class="main__aportar__sectionA__form__label" for="Aporte">Tipo de Aporte:</label>
+                <label class="main__aportar__sectionA__form__label" for="Aporte ">Tipo de Aporte:</label>
                 <select class="main__aportar__sectionA__form__select" id="Aporte">
                     <option class="main__aportar__sectionA__form__select__option">Imagen</option>
                     <option class="main__aportar__sectionA__form__select__option">Video</option>
@@ -53,17 +58,18 @@
                     <option class="main__aportar__sectionA__form__select__option">Económico</option>
                     <option class="main__aportar__sectionA__form__select__option">Otro</option>
                 </select>
-                <label class="main__aportar__sectionA__form__label" for="file">Cargar Archivo:</label>
-                <input class="main__aportar__sectionA__form__input" type="file" id="file">
-                <label class="main__aportar__sectionA__form__label" for="email"> Dirección de email:</label>
-                <input class="main__aportar__sectionA__form__input" type="text" id="email">
-                <label class="main__aportar__sectionA__form__label" for="comentarios"> Comentarios/Aportes:</label>
-                <textarea class="main__aportar__sectionA__form__textarea" id="comentarios"></textarea>
-                <label class="main__aportar__sectionA__form__label" for="comentarios"></label>
-                <input class="main__aportar__sectionA__form__input" type="submit" value="Enviar Formulario">
-                <input class="main__aportar__sectionA__form__input" type="reset" value="Cancelar">
+                <label class="main__aportar__sectionA__form__label form-label" for="file formFile">Cargar Archivo:</label>
+                <input class="main__aportar__sectionA__form__input form-control" type="file" id="file formFile">
+                <label class="main__aportar__sectionA__form__label form-label" for="email exampleFormControlInput1">Dirección de email:</label>
+                <input class="main__aportar__sectionA__form__input form-control" type="text" id="email" placeholder="nombre@ejemplo.com">
+                <label class="main__aportar__sectionA__form__label form-label" for="comentarios exampleFormControlTextarea1">Comentarios/Aportes:</label>
+                <textarea class="main__aportar__sectionA__form__textarea form-control" id="comentarios exampleFormControlTextarea1" rows="3"></textarea>
+                <label class="main__aportar__sectionA__form__label form-label" for="comentarios exampleFormControlInput1"></label>
+                <input class="main__aportar__sectionA__form__input btn btn-primary w-25 form-control" type="submit" value="Enviar Formulario">
+                <input class="main__aportar__sectionA__form__input btn btn-primary w-25 form-control" type="reset" value="Cancelar">
+                <input class="main__aportar__sectionA__form__input btn btn-primary w-25 form-control" type="reset" value="Borrar todo">
            </form>
-         </section>
+        </section>
    </main>
     <!-- Footer -->
    <footer class="footer">
@@ -77,5 +83,7 @@
             <a class="footer__article__a" href="https://www.youtube.com/?gl=AR&hl=es-419" target="_blank"><i class="fa-brands fa-youtube fa-shake footer__article__a__i" style="--fa-animation-duration: 2s;"></i>Nébula_oficial</a>
         </article>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
