@@ -1,0 +1,26 @@
+
+/* Estilos de Main de Aportar */
+
+.main{
+    background-color: rgb(73, 51, 73);
+    width: 100%;
+    padding: 0px 7%;
+    padding-top:  120px;
+    min-height: 600px;
+    .main__aportar__sectionA__titulo{
+        color: rgb(166, 143, 151);
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 46px;
+        border-top: 2px solid rgb(166, 143, 151);
+        border-bottom: 2px solid rgb(166, 143, 151);
+    }
+    .main__aportar__sectionA__form__label{
+        color: rgb(166, 143, 151);
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+    }    
+}
