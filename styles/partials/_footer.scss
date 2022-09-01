@@ -1,0 +1,29 @@
+/* Footer de todos */
+
+.footer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 70px;
+    .footer__article{
+        display: inline-block; 
+        .footer__article--mod1{
+            display: inline-block;
+            .footer__article__a{
+                color: $color-textos;
+                padding: 30px;
+                &:hover{
+                    color: rgb(0, 143, 140);
+                }
+                .footer__article__a__i{
+                    margin-right: 5px;
+                    padding: 30px;
+                }
+            } 
+        }
+    }
+}
