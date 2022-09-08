@@ -31,7 +31,7 @@
                 color:$color-blanco;
                 padding: 10px;
                 font-size: 20px;
-                background: $backgroud-categorias;
+                background:  rgba(190, 108, 170, 0.473);
                 border-radius: 20px;
             
                 &:hover{
@@ -64,7 +64,7 @@
                 color:$color-blanco;
                 padding: 10px;
                 font-size: 20px;
-                background: $backgroud-categorias;
+                background:  rgba(190, 108, 170, 0.473);
                 border-radius: 20px;
                 &:hover{
                         color: $color-textos;
@@ -96,7 +96,7 @@
                 color:$color-blanco;
                 padding: 10px;
                 font-size: 20px;
-                background: $backgroud-categorias;
+                background:  rgba(190, 108, 170, 0.473);
                 border-radius: 20px;
                 &:hover{
                     color: $color-textos;
@@ -128,7 +128,7 @@
                 color:$color-blanco;
                 padding: 10px;
                 font-size: 20px;
-               background: $backgroud-categorias;
+               background:  rgba(190, 108, 170, 0.473);
                 border-radius: 20px;
                 &:hover{
                     color: $color-textos;
@@ -160,12 +160,12 @@
                 color:$color-blanco;
                 padding: 10px;
                 font-size: 20px;
-                background: $backgroud-categorias;
+                background:  rgba(190, 108, 170, 0.473);
                 border-radius: 20px;
                 &:hover{
                     color: $color-textos;
                 }
-            }
+            } 
         }
     }
 }

@@ -1,4 +1,17 @@
 @charset "UTF-8";
+.boton1 {
+  background: rgb(16, 113, 168);
+  color: rgb(255, 255, 255);
+  justify-content: space-around;
+}
+
+.boton1 {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
 /* Configuración general */
 * {
   list-style: none;
@@ -366,7 +379,7 @@
   color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
-  background: radial-gradient(200px 60px, rgba(202, 115, 151, 0.397), rgba(88, 31, 64, 0.397));
+  background: rgba(190, 108, 170, 0.473);
   border-radius: 20px;
 }
 .main .main__categorias__sectionA .main__categorias__sectionA__article .main__categorias__sectionA__article__a:hover {
@@ -399,7 +412,7 @@
   color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
-  background: radial-gradient(200px 60px, rgba(202, 115, 151, 0.397), rgba(88, 31, 64, 0.397));
+  background: rgba(190, 108, 170, 0.473);
   border-radius: 20px;
 }
 .main .main__categorias__sectionB .main__categorias__sectionB__article .main__categorias__sectionB__article__a:hover {
@@ -413,7 +426,6 @@
        column-gap: 10px;
   row-gap: 10px;
   padding-bottom: 5px;
-  
 }
 .main .main__categorias__sectionC .main__categorias__sectionC__article {
   position: relative;
@@ -433,7 +445,7 @@
   color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
-  background: radial-gradient(200px 60px, rgba(202, 115, 151, 0.397), rgba(88, 31, 64, 0.397));
+  background: rgba(190, 108, 170, 0.473);
   border-radius: 20px;
 }
 .main .main__categorias__sectionC .main__categorias__sectionC__article .main__categorias__sectionC__article__a:hover {
@@ -444,7 +456,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
   row-gap: 10px;
   padding-bottom: 5px;
 }
@@ -466,7 +478,7 @@
   color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
-  background: radial-gradient(200px 60px, rgba(202, 115, 151, 0.397), rgba(88, 31, 64, 0.397));
+  background: rgba(190, 108, 170, 0.473);
   border-radius: 20px;
 }
 .main .main__categorias__sectionD .main__categorias__sectionD__article .main__categorias__sectionD__article__a:hover {
@@ -499,7 +511,7 @@
   color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
-  background: radial-gradient(200px 60px, rgba(202, 115, 151, 0.397), rgba(88, 31, 64, 0.397));
+  background: rgba(190, 108, 170, 0.473);
   border-radius: 20px;
 }
 .main .main__categorias__sectionE .main__categorias__sectionE__article .main__categorias__sectionE__article__a:hover {

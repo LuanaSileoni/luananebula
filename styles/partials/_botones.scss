@@ -1,0 +1,9 @@
+.boton1{
+    @extend %botonesBases;
+    background: $backgroundBotones;
+    color: $color-blanco;
+    justify-content: space-around;
+}
+.boton2{ 
+    @include boton (rgb(149, 212, 53) color rgb(0, 0, 0));
+}
