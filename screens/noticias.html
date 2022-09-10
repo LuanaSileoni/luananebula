@@ -19,17 +19,29 @@
     <link rel="icon" href="../screens/Favicon.ico">
 </head>
 <body>
-    <header class="header">
-        <a href="../index.html" class="header__logo"><h2 class="header__logo__contenido">Nébula</h2></a>
+    <header class="header"> 
+        <a href="../root/index.html" class="header__logo"><h2 class="header__logo__contenido">Nébula</h2></a>
         <!-- Menú de navegación -->
-        <nav class="header__nav"> 
-            <ul class="header__nav__ul">
-                <li class="header__nav__ul__li--mod1"><a class="header__nav__ul__li__a" href="./noticias.html">Noticias</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./categorias.html">Categorías</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./galeria.html">Galería</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./nosotros.html">Nosotros</a></li>
-                <li class="header__nav__ul__li--mod2"><a class="header__nav__ul__li__a" href="./aportar.html">Aportar</a></li>
-            </ul>
+        <nav class="header__nav navbar navbar-expand-lg text-bg-dark w-80">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+                    <ul class="header__nav__ul navbar-nav">
+                        <li class="header__nav__ul__li--mod1 nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/noticias.html">Noticias</a></li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/categorias.html">Categorías</a></li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/galeria.html">Galería</a></li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/nosotros.html">Nosotros</a></li>
+                        <li class="header__nav__ul__li--mod2 nav-item">
+                            <a class="header__nav__ul__li__a" href="./screens/aportar.html">Aportar</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
         <main class="main grid__main">
@@ -48,7 +60,7 @@
             <section class="main___sectionB container-fluid row">
                 <!-- Section B Categorias -->
                 <h2 class="main___sectionB__titulo col m-3">Lo más visto</h2>
-                <div class="main___sectionB__div row gap-5">
+                <div class="main___sectionB__div row gap-2">
                     <article class="main___sectionB__article card text-bg-dark p-3 row col-6 rounded">
                         <img class="main___sectionB__article__img card-img-top" src="https://resizer.glanacion.com/resizer/xse1j1VSqh6gSvQhiqNX5_OfHrM=/375x250/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/VAMLVUCGM5HA5NC5XVVNB5MUVE.jpg" alt="Imagen de un satélite">
                         <a class="main___sectionB__article__a card-text" href="">Fin del misterio, los restos sin control de un cohete chino caen sobre las aguas del sudeste asiático</a>
@@ -69,21 +81,21 @@
             </section>
             <section class="main__sectionC container-fluid row">
                 <!-- Section C Categorias -->
-                <h2 class="main__sectionC__titulo col m-3">También te puede interesar</h2>
-                <div class="main__sectionC__div row gap-5">
-                    <article class="main__sectionC__article card text-bg-ligth p-3 row col-6 rounded">
+                <h2 class="main__sectionC__titulo col">También te puede interesar</h2>
+                <div class="main__sectionC__div gap-2 row">
+                    <article class="main__sectionC__article card text-bg-ligth p-3 rounded col-lg-6">
                         <img class="main__sectionC__article__img card-img-top" src="https://resizer.glanacion.com/resizer/zgKFl72OJ9yH1iDAum3H7Qo_bVA=/375x250/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/BZTZS2A7ENAIBKLEWYD4WFWKXM.JPG" alt=" Foto de Vladimir Putin">
                         <a class="main__sectionC__article__a card-text" href="../index.html">Los planes del Kremlin, una decisión de Putin traslada la tensión con Occidente a la carrera espacial</a>
                     </article>
-                    <article class="main__sectionC__article card text-bg-ligth p-3 row col-6 rounded">
+                    <article class="main__sectionC__article card text-bg-ligth p-3 rounded col-lg-6">
                         <img class="main__sectionC__article__img card-img-top" src="https://www.viveusa.mx/sites/default/files/styles/detalle_nota_1080x666_v22/public/field/image/coldplay-imagenes-espacio-telescopio-webb-ap.jpg?itok=g3SbCw2n" alt="Foto del Cantante principal de Coldplay">
                         <a class="main__sectionC__article__a card-text" href="../index.html">Emocionante, Coldplay proyectó las imágenes del telescopio Webb mientras entonaba uno de sus hitazos</a>
                     </article>
-                    <article class="main__sectionC__article card text-bg-ligth p-3 row col-6 rounded">
+                    <article class="main__sectionC__article card text-bg-ligth p-3 rounded col-lg-6">
                         <img class="main__sectionC__article__img card-img-top" src="https://resizer.glanacion.com/resizer/Gkiom8XfmtuYE5OJ5VwilFPhSrY=/375x250/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/JQQQ5W6ETNDLTHQ4GCG6C6LELI" alt="Imagen ilustrativa">
                         <a class="main__sectionC__article__a card-text" href="../index.html">Entró en funcionamiento el lunes, la NASA recupera la comunicación con su nueva sonda lunar Capstone después de casi dos días</a>
                     </article>
-                    <article class="main__sectionC__article card text-bg-ligth p-3 row col-6 rounded">
+                    <article class="main__sectionC__article card text-bg-ligth p-3rounded col-lg-6">
                         <img class="main__sectionC__article__img card-img-top" src="https://resizer.glanacion.com/resizer/6k2LboDJaRDiqUk7JL0MGGIkcKA=/375x250/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KZD244C3OZHTVO7UQMFJXF3CSU.jpg" alt=" Imagen de estrellas">
                         <a class="main__sectionC__article__a card-text" href="../index.html">"Asteroides asesinos", con un algoritmo, buscan detectar los que podrían impactar contra la Tierra</a>
                     </article>

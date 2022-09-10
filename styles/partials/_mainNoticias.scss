@@ -38,6 +38,7 @@
                 color: rgb(0, 0, 0);
                 width: 120px;
                 text-align: center;
+                text-decoration: none;
                 &:hover{
                     background-color:rgb(0, 0, 0);
                     color: $color-textos;
@@ -80,8 +81,17 @@
             }
         }
     }
+    .main__sectionC__titulo{
+        color: rgb(166, 143, 151);
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 46px;
+        border-top: 2px solid rgb(166, 143, 151);
+        border-bottom: 2px solid rgb(166, 143, 151);
+    }
     .main__sectionC__article{
-        width: 100%;
+        width: 45%;
         height: auto;
         margin: 0px 10px 10px 10px;
         .main__sectionC__article__img{

@@ -1,17 +1,20 @@
 @charset "UTF-8";
 .boton1 {
-  background: rgb(16, 113, 168);
-  color: rgb(255, 255, 255);
-  justify-content: space-around;
-}
-
-.boton1 {
   padding: 10px;
   text-align: center;
   border-radius: 5px;
   border: none;
 }
 
+.boton1 {
+  background: rgb(16, 113, 168);
+  color: rgb(255, 255, 255);
+  justify-content: space-around;
+}
+
+/* .boton2{
+    @include boton($background:$botonColor,$padding: 10px, $border-radius: 05px, $border: none);
+}*/
 /* Configuración general */
 * {
   list-style: none;
@@ -520,7 +523,7 @@
 
 /* Estilos de Main de Galeria con GRIDS*/
 .main {
-  background-color: rgb(73, 51, 73);
+  background-color: rgb(245, 240, 245);
   width: 100%;
   padding: 0px 7%;
   padding-top: 120px;
@@ -562,29 +565,18 @@
 .main .main__sectionA__galeria .main__sectionA__galeria__article .main__sectionA__galeria__article__p:hover {
   color: rgb(73, 51, 73);
 }
-.main .main__sectionA__galeria .main__sectionB__galeria {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  justify-items: stretch;
-  margin: 0;
-  align-content: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  row-gap: 10px;
-}
-.main .main__sectionA__galeria .main__sectionB__galeria .main__sectionB__galeria__article {
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod1 {
   position: relative;
   display: inline-block;
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.main .main__sectionA__galeria .main__sectionB__galeria .main__sectionB__galeria__article .main__sectionB__galeria__article__img {
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod1 .main__sectionA__galeria__article__img {
   margin-top: 10px;
   height: 300px;
   width: 400px;
 }
-.main .main__sectionA__galeria .main__sectionB__galeria .main__sectionB__galeria__article .main__sectionB__galeria__article__p {
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod1 .main__sectionA__galeria__article__p {
   top: 50%;
   left: 50%;
   color: rgb(255, 255, 255);
@@ -595,10 +587,66 @@
   border-radius: 30px;
   margin-top: 10px;
 }
-.main .main__sectionA__galeria .main__sectionB__galeria .main__sectionB__galeria__article .main__sectionB__galeria__article__p:hover {
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod1 .main__sectionA__galeria__article__p:hover {
   color: rgb(73, 51, 73);
 }
-.main .main__sectionA__galeria .main__sectionC__galeria {
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod2 .main__sectionA__galeria__div__article {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod2 .main__sectionA__galeria__div__article .main__sectionA__galeria__article__img {
+  margin-top: 10px;
+  height: 300px;
+  width: 400px;
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod2 .main__sectionA__galeria__div__article .main__sectionA__galeria__article__p {
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod2 .main__sectionA__galeria__div__article .main__sectionA__galeria__article__p:hover {
+  color: rgb(73, 51, 73);
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod3 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod3 .main__sectionA__galeria__article__img {
+  margin-top: 10px;
+  height: 300px;
+  width: 400px;
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod3 .main__sectionA__galeria__article__p {
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.main .main__sectionA__galeria .main__sectionA__galeria__article--mod3 .main__sectionA__galeria__article__p:hover {
+  color: rgb(73, 51, 73);
+}
+.main .main__sectionB__galeria {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -609,18 +657,18 @@
        column-gap: 10px;
   row-gap: 10px;
 }
-.main .main__sectionA__galeria .main__sectionC__galeria .main__sectionC__galeria__article {
+.main .main__sectionB__galeria .main__sectionB__galeria__article {
   position: relative;
   display: inline-block;
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.main .main__sectionA__galeria .main__sectionC__galeria .main__sectionC__galeria__article .main__sectionC__galeria__article__img {
+.main .main__sectionB__galeria .main__sectionB__galeria__article .main__sectionB__galeria__article__img {
   margin-top: 10px;
   height: 300px;
   width: 400px;
 }
-.main .main__sectionA__galeria .main__sectionC__galeria .main__sectionC__galeria__article .main__sectionC__galeria__article__p {
+.main .main__sectionB__galeria .main__sectionB__galeria__article .main__sectionB__galeria__article__p {
   top: 50%;
   left: 50%;
   color: rgb(255, 255, 255);
@@ -629,10 +677,81 @@
   text-align: center;
   background-color: rgb(0, 0, 0);
   border-radius: 30px;
-  margin-bottom: 10px;
   margin-top: 10px;
 }
-.main .main__sectionA__galeria .main__sectionC__galeria .main__sectionC__galeria__article .main__sectionC__galeria__article__p:hover {
+.main .main__sectionB__galeria .main__sectionB__galeria__article .main__sectionB__galeria__article__p:hover {
+  color: rgb(73, 51, 73);
+}
+.main .main__sectionC__galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: stretch;
+  margin: 0;
+  align-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  row-gap: 10px;
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__article {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__article .main__sectionC__galeria__article__img {
+  margin-top: 10px;
+  height: 300px;
+  width: 400px;
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__article .main__sectionC__galeria__article__p {
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__article .main__sectionC__galeria__article__p:hover {
+  color: rgb(73, 51, 73);
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: stretch;
+  margin: 0;
+  align-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  row-gap: 10px;
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__div .main__sectionC__galeria__article {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__div .main__sectionC__galeria__article .main__sectionC__galeria__article__img {
+  margin-top: 10px;
+  height: 300px;
+  width: 400px;
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__div .main__sectionC__galeria__article .main__sectionC__galeria__article__p {
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.main .main__sectionC__galeria .main__sectionC__galeria__div .main__sectionC__galeria__article .main__sectionC__galeria__article__p:hover {
   color: rgb(73, 51, 73);
 }
 
@@ -721,7 +840,13 @@
   background: radial-gradient(200px 60px, rgba(202, 115, 151, 0.397), rgba(88, 31, 64, 0.397));
   border-radius: 20px;
 }
-.main .main__sectionA__portada .main__sectionB__pregunta__article_h2 {
+.main .main__sectionB__pregunta {
+  padding-top: 25px;
+}
+.main .main__sectionB__pregunta .main__sectionB__pregunta__article {
+  text-align: center;
+}
+.main .main__sectionB__pregunta .main__sectionB__pregunta__article .main__sectionB__pregunta__article_h2 {
   color: rgb(166, 143, 151);
   margin-top: 25px;
   margin-bottom: 20px;
@@ -730,12 +855,18 @@
   border-top: 2px solid rgb(166, 143, 151);
   border-bottom: 2px solid rgb(166, 143, 151);
 }
-.main .main__sectionA__portada .main__sectionB__pregunta__article__p {
+.main .main__sectionB__pregunta .main__sectionB__pregunta__article .main__sectionB__pregunta__article__p {
   color: rgb(166, 143, 151);
   font-size: 18px;
   text-align: justify;
 }
-.main .main__sectionA__portada .main__sectionC__actividad__article__h2 {
+.main .main__sectionC__actividad {
+  padding-top: 25px;
+}
+.main .main__sectionC__actividad .main__sectionC__actividad__article {
+  text-align: center;
+}
+.main .main__sectionC__actividad .main__sectionC__actividad__article .main__sectionC__actividad__article__h2 {
   color: rgb(166, 143, 151);
   margin-top: 25px;
   margin-bottom: 20px;
@@ -744,7 +875,7 @@
   border-top: 2px solid rgb(166, 143, 151);
   border-bottom: 2px solid rgb(166, 143, 151);
 }
-.main .main__sectionA__portada .main__sectionC__actividad__article__p {
+.main .main__sectionC__actividad .main__sectionC__actividad__article .main__sectionC__actividad__article__p {
   color: rgb(166, 143, 151);
   font-size: 18px;
   text-align: justify;
@@ -792,6 +923,7 @@
   color: rgb(0, 0, 0);
   width: 120px;
   text-align: center;
+  text-decoration: none;
 }
 .main .main__sectionA .main__sectionA__ul .main__sectionA__ul__li__a:hover {
   background-color: rgb(0, 0, 0);
@@ -833,8 +965,17 @@
 .main .main___sectionB__article .main___sectionB__article__a:hover {
   color: rgb(0, 0, 0);
 }
+.main .main__sectionC__titulo {
+  color: rgb(166, 143, 151);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 46px;
+  border-top: 2px solid rgb(166, 143, 151);
+  border-bottom: 2px solid rgb(166, 143, 151);
+}
 .main .main__sectionC__article {
-  width: 100%;
+  width: 45%;
   height: auto;
   margin: 0px 10px 10px 10px;
 }

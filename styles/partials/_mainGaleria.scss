@@ -1,7 +1,7 @@
 /* Estilos de Main de Galeria con GRIDS*/
 
 .main{
-    background-color: rgb(73, 51, 73);
+    background-color: rgb(245, 240, 245);
     width: 100%;
     padding: 0px 7%;
     padding-top:  120px;
@@ -40,26 +40,47 @@
                 }
             }
         }
-        .main__sectionB__galeria{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: auto;
-            justify-items: stretch;
-            margin: 0;	
-            align-content: center;
-            column-gap: 10px;
-            row-gap: 10px;
-            .main__sectionB__galeria__article{
-                position: relative;
+        .main__sectionA__galeria__article--mod1 {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            .main__sectionA__galeria__article__img{
+                margin-top: 10px;
+                height: 300px;
+                width: 400px;
+            }
+            .main__sectionA__galeria__article__p{
+                top: 50%;
+                left: 50%;
+                color: rgb(255, 255, 255);
+                padding: 3px;
+                font-size: 30px;
+                text-align: center;
+                background-color: rgb(0, 0, 0);
+                border-radius: 30px;
+                margin-top: 10px;
+                &:hover{
+                    color: rgb(73, 51, 73);
+                }
+            }
+        }
+        .main__sectionA__galeria__article--mod2 {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            .main__sectionA__galeria__div__article{
+                position: relative; 
                 display: inline-block;
                 text-align: center;
                 color: rgb(255, 255, 255);
-                .main__sectionB__galeria__article__img{
+                .main__sectionA__galeria__article__img{
                     margin-top: 10px;
                     height: 300px;
                     width: 400px;
                 }
-                .main__sectionB__galeria__article__p{
+                .main__sectionA__galeria__article__p{
                     top: 50%;
                     left: 50%;
                     color: rgb(255, 255, 255);
@@ -70,12 +91,107 @@
                     border-radius: 30px;
                     margin-top: 10px;
                     &:hover{
-                        color: rgb(73, 51, 73)
+                        color: rgb(73, 51, 73);
                     }
                 }
             }
         }
-        .main__sectionC__galeria{
+        .main__sectionA__galeria__article--mod3 {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            .main__sectionA__galeria__article__img{
+                margin-top: 10px;
+                height: 300px;
+                width: 400px;
+            }
+            .main__sectionA__galeria__article__p{
+                top: 50%;
+                left: 50%;
+                color: rgb(255, 255, 255);
+                padding: 3px;
+                font-size: 30px;
+                text-align: center;
+                background-color: rgb(0, 0, 0);
+                border-radius: 30px;
+                margin-top: 10px;
+                &:hover{
+                    color: rgb(73, 51, 73);
+                }
+            }
+        }
+    }
+    .main__sectionB__galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: stretch;
+        margin: 0;	
+        align-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        .main__sectionB__galeria__article{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            .main__sectionB__galeria__article__img{
+                margin-top: 10px;
+                height: 300px;
+                width: 400px;
+            }
+            .main__sectionB__galeria__article__p{
+                top: 50%;
+                left: 50%;
+                color: rgb(255, 255, 255);
+                padding: 3px;
+                font-size: 30px;
+                text-align: center;
+                background-color: rgb(0, 0, 0);
+                border-radius: 30px;
+                margin-top: 10px;
+                &:hover{
+                    color: rgb(73, 51, 73);
+                }
+            }
+        }
+    }
+    .main__sectionC__galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: stretch;
+        margin: 0;	
+        align-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        .main__sectionC__galeria__article{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            .main__sectionC__galeria__article__img{
+                margin-top: 10px;
+                height: 300px;
+                width: 400px;
+            }
+            .main__sectionC__galeria__article__p{
+                top: 50%;
+                left: 50%;
+                color: rgb(255, 255, 255);
+                padding: 3px;
+                font-size: 30px;
+                text-align: center;
+                background-color: rgb(0, 0, 0);
+                border-radius: 30px;
+                margin-top: 10px;
+                &:hover{
+                    color: rgb(73, 51, 73);
+                }
+            }
+        }
+        .main__sectionC__galeria__div{ 
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto;
@@ -88,12 +204,12 @@
                 position: relative;
                 display: inline-block;
                 text-align: center;
-                color: rgb(255, 255, 255);           
+                color: rgb(255, 255, 255);
                 .main__sectionC__galeria__article__img{
                     margin-top: 10px;
                     height: 300px;
                     width: 400px;
-                }         
+                }
                 .main__sectionC__galeria__article__p{
                     top: 50%;
                     left: 50%;
@@ -103,10 +219,9 @@
                     text-align: center;
                     background-color: rgb(0, 0, 0);
                     border-radius: 30px;
-                    margin-bottom: 10px;
                     margin-top: 10px;
                     &:hover{
-                        color: rgb(73, 51, 73)
+                        color: rgb(73, 51, 73);
                     }
                 }
             }

@@ -19,17 +19,29 @@
     <link rel="icon" href="../screens/Favicon.ico">
 </head>
 <body>
-    <header class="header">
-        <a href="../index.html" class="header__logo"><h2 class="header__logo__contenido">Nébula</h2></a>
+    <header class="header"> 
+        <a href="../root/index.html" class="header__logo"><h2 class="header__logo__contenido">Nébula</h2></a>
         <!-- Menú de navegación -->
-        <nav class="header__nav">
-            <ul class="header__nav__ul">
-                <li class="header__nav__ul__li--mod1"><a class="header__nav__ul__li__a" href="./noticias.html">Noticias</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./categorias.html">Categorías</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./galeria.html">Galería</a></li>
-                <li class="header__nav__ul__li"><a class="header__nav__ul__li__a" href="./nosotros.html">Nosotros</a></li>
-                <li class="header__nav__ul__li--mod2"><a class="header__nav__ul__li__a" href="./aportar.html">Aportar</a></li>
-            </ul>
+        <nav class="header__nav navbar navbar-expand-lg text-bg-dark w-80">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+                    <ul class="header__nav__ul navbar-nav">
+                        <li class="header__nav__ul__li--mod1 nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/noticias.html">Noticias</a></li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/categorias.html">Categorías</a></li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/galeria.html">Galería</a></li>
+                        <li class="header__nav__ul__li nav-item">
+                            <a class="header__nav__ul__li__a nav-link" href="./screens/nosotros.html">Nosotros</a></li>
+                        <li class="header__nav__ul__li--mod2 nav-item">
+                            <a class="header__nav__ul__li__a" href="./screens/aportar.html">Aportar</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="main">
