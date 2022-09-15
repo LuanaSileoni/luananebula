@@ -4,6 +4,12 @@
     color: $color-blanco;
     justify-content: space-around;
 }
-/* .boton2{
-    @include boton($background:$botonColor,$padding: 10px, $border-radius: 05px, $border: none);
-}*/
+ .boton2{
+    @mixin boton($background, $botonColor,$padding, $border-radius, $border, $color){
+        padding: 10px;
+        border-radius: 05px;
+        border: none;
+        background: $botonColor;
+        color: $color-blanco
+    }
+}
