@@ -75,9 +75,10 @@
   font-family: "Righteous";
 }
 .header .header__nav {
-  display: inline-block;
-  margin-left: 15px;
+  display: grid;
+  margin-left: 474px;
   justify-content: space-between;
+  background: rgb(73, 51, 73);
 }
 .header .header__nav .header__nav__ul__li {
   display: inline-block;
@@ -138,6 +139,10 @@
 .header .header__nav .header__nav__ul__li--mod2 .header__nav__ul__li__a:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(166, 143, 151);
+}
+
+.navbar-toggler {
+  background: rgb(0, 143, 140);
 }
 
 /* Estilos Main de Vista Index con GRIDS*/
