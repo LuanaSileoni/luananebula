@@ -299,7 +299,7 @@
 /* Media Querie para MOBILE INDEX*/
 @media screen and (max-width: 360px) {
   .main__titulo {
-    font-size: 20px;
+    font-size: 10px;
   }
   .main__section1__article {
     display: flex;
@@ -318,7 +318,7 @@
     grid-template-rows: auto;
   }
   .main__section2__h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
   .main__section2__div__article {
     padding: 10px;
