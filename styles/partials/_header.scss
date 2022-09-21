@@ -22,8 +22,8 @@
         }
     }
     .header__nav{
-        display: grid;
-        margin-left: 474px;
+        display: inline-block;
+        margin-left: 320px;
         justify-content: space-between;
         background: $color-main;
         .header__nav__ul__li{

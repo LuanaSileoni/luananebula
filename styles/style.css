@@ -75,8 +75,8 @@
   font-family: "Righteous";
 }
 .header .header__nav {
-  display: grid;
-  margin-left: 474px;
+  display: inline-block;
+  margin-left: 320px;
   justify-content: space-between;
   background: rgb(73, 51, 73);
 }
